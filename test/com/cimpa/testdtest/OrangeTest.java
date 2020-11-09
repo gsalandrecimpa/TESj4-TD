@@ -22,6 +22,7 @@ public class OrangeTest {
 		o = new Orange(1.2,"toto");
 		assertEquals(1.2,o.getPrix(),0);
 		assertEquals("toto",o.getOrigine());
+		
 		try {
 			o = new Orange(-1.2,"toto");
 			fail("Exception expected");
@@ -29,6 +30,7 @@ public class OrangeTest {
 			assertTrue(e instanceof OrangeException);
 			assertEquals("Le prix ne peut être négatif",e.getMessage());
 		}
+		
 		try {
 			o = new Orange(1.2,null);
 			fail("Exception expected");
