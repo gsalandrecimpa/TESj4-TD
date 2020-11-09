@@ -1,0 +1,22 @@
+<project>
+<target name="clean">
+	<delete dir="bin"/>
+</target>
+<target name="compile">
+	<mkdir dir="bin"/>
+	<javac destdir="bin" srcdir="src;test" classpath="lib\junit.jar"/>
+</target>
+<target name="tests" depends="compile">
+	<junit>
+		<classpath>
+			<pathelement location="lib\junit.jar"/>
+			<pathelement location="lib\org.hamcrest.core_1.3.0.v20180420-1519.jar"/>
+			<pathelement location="${basedir}\bin"/>
+		</classpath>
+		<formatter type="xml"/>
+		<test name="com.cimpa.testdtest.OrangeTest" outfile="resultOrangeTest"/>
+		<test name="com.cimpa.testdtest.PanierTest" outfile="resultPanierTest"/>
+	</junit>
+</target>
+
+</project>
