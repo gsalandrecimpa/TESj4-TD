@@ -1,12 +1,15 @@
 <project>
 <target name="clean">
 	<delete dir="bin"/>
+	<delete dir="junit"/>
+	<delete dir="jacoco"/>
 </target>
 <target name="compile">
 	<mkdir dir="bin"/>
 	<javac destdir="bin" srcdir="src;test" classpath="lib\junit.jar"/>
 </target>
 <target name="tests" depends="compile">
+	<mkdir dir="junit"/>
 	<junit>
 		<classpath>
 			<pathelement location="lib\junit.jar"/>
@@ -14,8 +17,8 @@
 			<pathelement location="${basedir}\bin"/>
 		</classpath>
 		<formatter type="xml"/>
-		<test name="com.cimpa.testdtest.OrangeTest" outfile="resultOrangeTest"/>
-		<test name="com.cimpa.testdtest.PanierTest" outfile="resultPanierTest"/>
+		<test name="com.cimpa.testdtest.OrangeTest" outfile="junit\resultOrangeTest"/>
+		<test name="com.cimpa.testdtest.PanierTest" outfile="junit\resultPanierTest"/>
 	</junit>
 </target>
 
