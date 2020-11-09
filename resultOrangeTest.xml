@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="vmi438126" name="com.cimpa.testdtest.OrangeTest" skipped="0" tests="3" time="0.11" timestamp="2020-11-09T14:05:16">
+<testsuite errors="0" failures="0" hostname="vmi438126" name="com.cimpa.testdtest.OrangeTest" skipped="0" tests="3" time="0.094" timestamp="2020-11-09T16:00:23">
   <properties>
     <property name="ant.library.dir" value="C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib" />
     <property name="ant.file.type" value="file" />
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="java.class.version" value="57.0" />
   </properties>
-  <testcase classname="com.cimpa.testdtest.OrangeTest" name="testToString" time="0.016" />
+  <testcase classname="com.cimpa.testdtest.OrangeTest" name="testToString" time="0.0" />
   <testcase classname="com.cimpa.testdtest.OrangeTest" name="testConstruct" time="0.0" />
   <testcase classname="com.cimpa.testdtest.OrangeTest" name="testEquals" time="0.0" />
   <system-out><![CDATA[]]></system-out>

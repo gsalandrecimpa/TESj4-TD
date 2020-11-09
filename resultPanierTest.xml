@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="vmi438126" name="com.cimpa.testdtest.PanierTest" skipped="0" tests="6" time="0.016" timestamp="2020-11-09T14:05:16">
+<testsuite errors="0" failures="0" hostname="vmi438126" name="com.cimpa.testdtest.PanierTest" skipped="0" tests="6" time="0.016" timestamp="2020-11-09T16:00:23">
   <properties>
     <property name="ant.library.dir" value="C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib" />
     <property name="ant.file.type" value="file" />
@@ -63,7 +63,7 @@
   </properties>
   <testcase classname="com.cimpa.testdtest.PanierTest" name="testBoycotteOrigine" time="0.0" />
   <testcase classname="com.cimpa.testdtest.PanierTest" name="testSetContenance" time="0.0" />
-  <testcase classname="com.cimpa.testdtest.PanierTest" name="testAjouteRetireEqualsToString" time="0.016" />
+  <testcase classname="com.cimpa.testdtest.PanierTest" name="testAjouteRetireEqualsToString" time="0.0" />
   <testcase classname="com.cimpa.testdtest.PanierTest" name="testGetPrix" time="0.0" />
   <testcase classname="com.cimpa.testdtest.PanierTest" name="testConstruct" time="0.0" />
   <testcase classname="com.cimpa.testdtest.PanierTest" name="testEstVideEstPleinAjoute" time="0.0" />
