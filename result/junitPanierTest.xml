@@ -1,32 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite errors="0" failures="0" hostname="vmi438126" name="com.cimpa.testdtest.PanierTest" skipped="0" tests="6" time="0.015" timestamp="2020-11-09T18:05:30">
+<testsuite errors="0" failures="0" hostname="vmi438126" name="com.cimpa.testdtest.PanierTest" skipped="0" tests="6" time="0.015" timestamp="2020-11-09T20:45:29">
   <properties>
     <property name="ant.library.dir" value="C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib" />
     <property name="ant.file.type" value="file" />
     <property name="java.specification.version" value="13" />
     <property name="sun.cpu.isalist" value="amd64" />
     <property name="sun.jnu.encoding" value="Cp1252" />
-    <property name="java.class.path" value="C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\bin\..\lib\ant-launcher.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-antlr.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-apache-bcel.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-apache-bsf.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-apache-log4j.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-apache-oro.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-apache-regexp.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-apache-resolver.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-apache-xalan2.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-commons-logging.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-commons-net.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-imageio.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-jai.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-javamail.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-jdepend.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-jmf.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-jsch.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-junit.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-junit4.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-junitlauncher.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-launcher.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-netrexx.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-swing.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-testutil.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-xz.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant.jar" />
+    <property name="java.class.path" value="C:\Users\Administrator\eclipse-workspace\TESj4-TD\lib\junit.jar;C:\Users\Administrator\eclipse-workspace\TESj4-TD\lib\org.hamcrest.core_1.3.0.v20180420-1519.jar;C:\Users\Administrator\eclipse-workspace\TESj4-TD\bin;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-launcher.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-junit.jar;C:\Users\Administrator\Desktop\JAVA ext libraries\apache-ant-1.10.7\lib\ant-junit4.jar" />
     <property name="java.vm.vendor" value="Oracle Corporation" />
     <property name="sun.arch.data.model" value="64" />
     <property name="user.variant" value="" />
     <property name="java.vendor.url" value="https://java.oracle.com/" />
-    <property name="java.vm.specification.version" value="13" />
     <property name="os.name" value="Windows Server 2016" />
+    <property name="java.vm.specification.version" value="13" />
     <property name="sun.java.launcher" value="SUN_STANDARD" />
     <property name="user.country" value="US" />
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-13\bin" />
-    <property name="sun.java.command" value="org.apache.tools.ant.launch.Launcher tests" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner testsfile=C:\Users\Administrator\eclipse-workspace\TESj4-TD\junittestcases2588603647888283926.properties skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\Users\Administrator\eclipse-workspace\TESj4-TD\result\junitPanierTest.xml crashfile=C:\Users\Administrator\eclipse-workspace\TESj4-TD\junitvmwatcher15776234848555982909.properties propsfile=C:\Users\Administrator\eclipse-workspace\TESj4-TD\junit8693195314282153217.properties" />
     <property name="jdk.debug" value="release" />
     <property name="sun.cpu.endian" value="little" />
     <property name="user.home" value="C:\Users\Administrator" />
     <property name="user.language" value="en" />
     <property name="sun.stderr.encoding" value="cp437" />
     <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="_jacoco.agentFile" value="C:\Users\ADMINI~1\AppData\Local\Temp\2\jacocoagent9071168258447935129.jar" />
     <property name="java.version.date" value="2019-09-17" />
     <property name="java.home" value="C:\Program Files\Java\jdk-13" />
-    <property name="file.separator" value="\" />
     <property name="basedir" value="C:\Users\Administrator\eclipse-workspace\TESj4-TD" />
+    <property name="file.separator" value="\" />
     <property name="java.vm.compressedOopsMode" value="32-bit" />
     <property name="line.separator" value="&#xd;&#xa;" />
     <property name="sun.stdout.encoding" value="cp437" />
@@ -61,8 +62,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
     <property name="java.class.version" value="57.0" />
   </properties>
-  <testcase classname="com.cimpa.testdtest.PanierTest" name="testBoycotteOrigine" time="0.015" />
-  <testcase classname="com.cimpa.testdtest.PanierTest" name="testSetContenance" time="0.0" />
+  <testcase classname="com.cimpa.testdtest.PanierTest" name="testBoycotteOrigine" time="0.0" />
+  <testcase classname="com.cimpa.testdtest.PanierTest" name="testSetContenance" time="0.015" />
   <testcase classname="com.cimpa.testdtest.PanierTest" name="testAjouteRetireEqualsToString" time="0.0" />
   <testcase classname="com.cimpa.testdtest.PanierTest" name="testGetPrix" time="0.0" />
   <testcase classname="com.cimpa.testdtest.PanierTest" name="testConstruct" time="0.0" />
